@@ -255,9 +255,18 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     sensors.msm8916
 
+<<<<<<< HEAD
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1
+=======
+# Telephoney
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Thermal
 PRODUCT_COPY_FILES += \
